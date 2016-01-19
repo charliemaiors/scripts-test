@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo $new_key > /home/ubuntu/config
+#echo $new_key > /home/ubuntu/config
 
 touch ~/iperfclient.sh
 echo "#! /bin/bash" >> ~/iperfclient.sh
