@@ -2,6 +2,7 @@
 
 echo $new_key > /home/ubuntu/config
 
+touch ~/iperfclient.sh
 echo "#! /bin/bash" >> ~/iperfclient.sh
 echo "screen -d -m -S client iperf -c $server_private -t 300" >> ~/iperfclient.sh
 
