@@ -2,8 +2,8 @@
 
 #echo $new_key > /home/ubuntu/config
 
-touch ~/iperfclient.sh
-echo "#! /bin/bash" >> ~/iperfclient.sh
-echo "screen -d -m -S client iperf -c $server_private -t 300" >> ~/iperfclient.sh
+touch /root/iperfclient.sh
+echo "#! /bin/bash" >> /root/iperfclient.sh
+echo "screen -d -m -S client iperf -c $server_private -t 300" >> /root/iperfclient.sh
 
-at now +2 min -f iperfclient.sh
+at now +2 min -f /root/iperfclient.sh
