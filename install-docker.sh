@@ -1,4 +1,4 @@
 #! /bin/bash
 
 sudo apt-get update && sudo apt-get install -y iperf screen at
-#sudo /usr/sbin/atd start
+sudo /etc/init.d/atd start
